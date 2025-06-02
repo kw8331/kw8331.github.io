@@ -1,1 +1,71 @@
-<h1> Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>yumME – Real-Time Restaurant Insights</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+  <div class="min-h-screen flex flex-col justify-between">
+    <!-- Header -->
+    <header class="p-6 bg-yellow-400 shadow">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <img src="yumme-logo.png" alt="yumME Logo" class="h-10 w-auto" />
+          <h1 class="text-2xl font-bold">yumME</h1>
+        </div>
+        <nav class="space-x-4">
+          <a href="#features" class="hover:underline">Features</a>
+          <a href="#signup" class="hover:underline">Sign Up</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center px-6 py-20 bg-gray-100" id="hero">
+      <h2 class="text-4xl font-bold mb-4">Your Table, On Your Terms</h2>
+      <p class="text-lg mb-6">
+        Real-time restaurant reviews, fast cancellations, and AI-powered last-minute bookings — all in one app.
+      </p>
+      <a href="#signup" class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold">Join the Waitlist</a>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="max-w-5xl mx-auto py-16 px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Features</h3>
+      <div class="grid md:grid-cols-3 gap-8 text-center">
+        <div>
+          <h4 class="text-xl font-semibold mb-2">Real-Time Updates</h4>
+          <p>See how busy restaurants are now. Crowd-sourced and AI-enhanced insights.</p>
+        </div>
+        <div>
+          <h4 class="text-xl font-semibold mb-2">FastTable</h4>
+          <p>Get alerts when popular tables free up — beat the rush with our cancellation radar.</p>
+        </div>
+        <div>
+          <h4 class="text-xl font-semibold mb-2">Smart Recommendations</h4>
+          <p>Our AI curates suggestions based on your mood, habits, and location.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signup -->
+    <section id="signup" class="bg-yellow-50 py-16 px-6">
+      <div class="max-w-xl mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-4">Be the First to Dine Smarter</h3>
+        <p class="mb-6">Sign up to get early access and beta invites.</p>
+        <form class="flex flex-col md:flex-row gap-4 justify-center">
+          <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded border border-gray-300 w-full md:w-2/3">
+          <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-2 rounded font-semibold">Notify Me</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-500 py-6">
+      &copy; 2025 yumME. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
